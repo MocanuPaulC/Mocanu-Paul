@@ -1,0 +1,41 @@
+
+#bio_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+section{
+    margin: 0;
+}
+
+#gallery{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 0;
+    /*margin: 0;*/
+}
+
+#gallery img{
+    width: 100%;
+    margin: 0;
+}
+
+
+
+#bio{
+    display: flex;
+    padding-right: 0;
+}
+#bio img{
+    object-fit: cover;
+}
+
+#bio span{
+    align-self: center;
+    padding: 0 50px;
+    line-height: 2;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+
+#intro_holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#intro{
+    /*margin: auto;*/
+}
+
+#intro p{
+    font-size: smaller;
+}
+
+#landingResumes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner_resume{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 5% 0 ;
+
+}
+#landingResumes *{
+    align-self: center;
+    text-align: center;
+    margin: 5px;
+    min-width: 100px;
+}
+
+#smallBio{
+    display: flex;
+    padding-right: 0;
+}
+#smallBio img{
+    object-fit: cover;
+}
+
+#smallBio span{
+    align-self: center;
+    padding: 0 50px;
+    line-height: 2;
+    text-align: center;
+}
+
